@@ -33,11 +33,14 @@
             background-color: darkblue;
         }
         .comeco {
-            flex: auto;
             padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
         }
         .aba {
             display: none;
+            width: 100%;
         }
         .aba.ativa {
             display: block;
@@ -52,7 +55,8 @@
             border: 1px solid gold;
             margin-right: 20px;
             margin-left: 20px;
-            margin-bottom: 10px;
+            margin-top: 10px;
+            margin-bottom: 20px;
             border-color: black;
         }
         .botao-amora:hover {
@@ -61,12 +65,15 @@
         .sobre-conteudo {
             display: flex;
             align-items: flex-start;
+            margin-top: 20px;
         }
         .sobre-conteudo img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            margin-right: 10px;
+            width: 250px; 
+            margin-right: 20px;
+            margin-right: 10px; 
+        }
+        .sobre-conteudo div {
+            flex: 1;
         }
         .sobre-conteudo p {
             margin-bottom: 20px;
@@ -90,7 +97,7 @@
         <div id="sobre" class="aba ativa">
             <h2>Sobre Mim</h2>
             <div class="sobre-conteudo">
-                <img style="border: black;" src="imagem_perfil.png">
+                <img style="border: black;" src="minha-imagem.jpg">
                 <div>
                     <p>Olá! Me chamo João Pedro e atualmente estou cursando o meu primeiro período em Ciências da Computação.</p>
                     <p>Dentre os assuntos de meu interesse estão: história; arqueologia; mitologia; geologia; paleontologia; química e matemática.</p>
