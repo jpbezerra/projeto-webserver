@@ -1,0 +1,81 @@
+body {
+    font-family: Arial;
+    display: flex;
+    margin: 0;
+}
+.sidebar {
+    height: 700px;
+    width: 200px;
+    display: flex;
+    background-color: darkred;
+    flex-direction: column;
+    padding-top: 20px;
+    transition: height ease 0.5s;
+}
+.sidebar button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    font-size: 100%;
+    text-align: center;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.sidebar button:hover {
+    background-color: darkblue;
+}
+.comeco {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.aba {
+    display: none;
+    width: 100%;
+}
+.aba.ativa {
+    display: block;
+    text-decoration: none;
+}
+.botao-amora {
+    background-color: gold;
+    cursor: pointer;
+    border-radius: 5px;
+    color: black;
+    padding: 10px 20px;
+    border: 1px solid gold;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-color: black;
+}
+.botao-amora:hover {
+    background-color: blueviolet;
+}
+.sobre-conteudo {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+.sobre-conteudo img {
+    width: 250px; 
+    margin-right: 20px;
+    margin-right: 10px; 
+}
+.sobre-conteudo div {
+    flex: 1;
+}
+.sobre-conteudo p {
+    margin-bottom: 20px;
+    font-size: 90%;
+}
+.amora {
+    max-width: 100%;
+    max-height: 100%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
